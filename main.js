@@ -84,17 +84,19 @@ function imprimirArray() {
 // Actividadd 7
 
 let numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let numeros1 = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20];
+let numeros2 = [3, 6, 9, 12, 15, 18, 21, 24, 27, 30];
 
-function imprimirSinQuinto() {
-  for (let i = 0; i < numeros.length; i++) {
+function imprimirSinQuinto(array) {
+  for (let i = 0; i < array.length; i++) {
     if (i === 4) {
       continue;
     }
-    console.log(numeros[i]);
+    console.log(array[i]);
   }
 }
 
-// imprimirSinQuinto(numeros);
+// imprimirSinQuinto(numeros2);
 
 // Actividad 8
 
